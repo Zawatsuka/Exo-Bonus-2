@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(241, 194, 194);
+}
+
+.divception {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 120px;
+
+
+}
+
+#first-title {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 40px;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+#img1 {
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 140px;
+}
+
+#img2 {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 140px;
+}
+
+#first-title2 {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+
+#text2 {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 35px;
+}
+
+#bloc1 {
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border-radius: 3% 0% 0% 3%;
+    box-shadow: 2px 20px 15px rgba(104, 98, 98, 0.493);
+
+}
+
+#bloc2 {
+    background: linear-gradient(to right, #F7291B, 20%, #fd0054);
+    height: 500px;
+    width: 400px;
+    border-radius: 0% 3% 3% 0%;
+    box-shadow: 2px 20px 15px rgba(104, 98, 98, 0.493);
+
+}
+
+#ID {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 111px;
+}
+
+label {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-top: -10px;
+
+
+}
+
+#textzone1 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -65px;
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(206, 206, 206);
+
+
+}
+
+#textzone2 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -65px;
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(206, 206, 206);
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#textlink {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 140px;
+    margin-left: 120px;
+    color: black;
+}
+
+#button {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 130px;
+    margin-top: 180px;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: #fd0054;
+    border-style: none;
+    color: white;
+}
